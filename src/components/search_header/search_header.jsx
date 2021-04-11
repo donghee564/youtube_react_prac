@@ -14,7 +14,7 @@ const SearchHeader = ({ onSearch }) => {
 
   const onKeyPress = (event) => {
     if (event.key === "Enter") {
-      //엔터키를 눌렀을때만
+      //엔터키를 입력하면
       handleSearch();
     }
   };
